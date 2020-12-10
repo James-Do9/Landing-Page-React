@@ -18,15 +18,13 @@ export function Home() {
 				linkThree="Services"
 				linkFour="Contact"
 			/>
-			<br />
-			<div className="container">
+			<div className="container mt-4">
 				<Jumbotron
 					header="A Warm Welcome!"
 					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					buttonUrl=""
 					buttonLabel="Call to action!"
 				/>
-				,
 				<BootstrapCard
 					imageUrlOne="https://placehold.it/500x325.jpg"
 					titleOne="Card Title 1"

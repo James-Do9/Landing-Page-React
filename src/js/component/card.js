@@ -3,7 +3,7 @@ import PropType from "prop-types";
 export function BootstrapCard(props) {
 	return (
 		<div className="row">
-			<div className="col">
+			<div className="col-6 col-md-3 col-sm-2 d-flex">
 				<div className="card h-100">
 					<img
 						className="card-img-top"
@@ -23,7 +23,7 @@ export function BootstrapCard(props) {
 					</div>
 				</div>
 			</div>
-			<div className="col">
+			<div className="col-6 col-md-3 col-sm-2 d-flex">
 				<div className="card h-100">
 					<img
 						className="card-img-top"
@@ -43,7 +43,7 @@ export function BootstrapCard(props) {
 					</div>
 				</div>
 			</div>
-			<div className="col">
+			<div className="col-6 col-md-3 col-sm-2 d-flex">
 				<div className="card h-100">
 					<img
 						className="card-img-top"
@@ -63,7 +63,7 @@ export function BootstrapCard(props) {
 					</div>
 				</div>
 			</div>
-			<div className="col">
+			<div className="col-6 col-md-3 col-sm-2 d-flex">
 				<div className="card h-100">
 					<img
 						className="card-img-top"

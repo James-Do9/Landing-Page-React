@@ -2,7 +2,7 @@ import React from "react";
 import PropType from "prop-types";
 export function NavBar(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<a className="navbar-brand" href="#">
 				{props.navBarName}
 			</a>
